@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    <div class="container-fluid">
+      <div class="wlsn-navigation">
+        <a href="index.html">
+          <img src="img/wilsons.png" class="img-responsive center-block">
+        </a>
+        <ul class="list-inline list-unstyled text-center">
+          <li><a href="menu.html" class="button btn-transparent-bk btn-lg">Menu</a></li>
+          <li><a href="hours.html" class="button btn-transparent-bk btn-lg">Hours</a></li>
+          <li><a href="location.html" class="button btn-transparent-bk btn-lg">Location</a></li>
+        </ul>
+      </div>
+        {{ content }}
+    </div>
+    {% include footer.html %}
+
+  </body>
+
+</html>
